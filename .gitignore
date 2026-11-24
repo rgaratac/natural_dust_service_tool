@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Tool outputs and downloads
+*.parquet
+*.zip
+*.zip.part
+*.nc
+EEA_PM*/
+IRA_dust/
+station_pairing_default.csv
+station_pairing_user.csv
+*_station_annual_*.csv
+DataExtract.csv
+!Data/DataExtract.csv
