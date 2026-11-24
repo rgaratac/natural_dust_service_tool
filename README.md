@@ -132,10 +132,4 @@ Files are written to the output folder: `MyDrive/CAMS_Tool_output` in Colab, or 
 
 **Requirements:** `numpy`, `pandas`, `xarray`, `netCDF4`, `scipy`, `matplotlib`, `cartopy`, `plotly` (≥ 6), `anywidget`, `ipywidgets`, `ipyleaflet`, `pyarrow`, `requests`, `tqdm`, `dask`, `psutil`, `cdsapi` (≥ 0.7.7).
 
-**Tests:**
 
-```
-python -m unittest discover -s tests
-```
-
-(with the repository root on `PYTHONPATH`).
