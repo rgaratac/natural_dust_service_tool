@@ -42,7 +42,7 @@ The code cells are hidden; double-click a cell to show the code. Settings are in
 
 **Dust days.** A day is a natural-event (dust) day when CAMS dust at the station is above `CAMS_dust_threshold`. Dust days are excluded from every reference window.
 
-**Data requirements.** For hourly data, a daily mean needs at least `MIN_HOURS_PER_DAY` valid hourly values. The default is 18 (75 % of the day, as in the data-aggregation rule of the Directive); set 24 to keep only complete days. A station is kept when at least `Station_Temporal_coverage` (65 %) of the days of the year have valid data.
+**Data requirements.** For hourly data, a daily mean needs at least `MIN_HOURS_PER_DAY` valid hourly values. The default is 18 (75 % of the day); set 24 to keep only complete days. A station is kept when at least `Station_Temporal_coverage` (65 %) of the days of the year have valid data.
 
 **Station classes** (from `Air Quality Station Type` and `Air Quality Station Area` in `DataExtract.csv`):
 
