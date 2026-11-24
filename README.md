@@ -69,7 +69,7 @@ The load is subtracted on every dust day, with or without an exceedance: adjuste
 
 | | Daily | Annual |
 |---|---|---|
-| PM10 | 45 (set 50 for the previous limit) | 20 |
+| PM10 | 45 | 20 |
 | PM2.5 | 25 | 10 |
 
 ## Time zones
